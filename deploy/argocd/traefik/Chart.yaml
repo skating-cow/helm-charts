@@ -1,0 +1,9 @@
+apiVersion: v2
+name: traefik
+description: An umbrella chart for deploying traefik
+version: 0.0.1
+namespace: traefik
+dependencies:
+  - name: traefik
+    version: 37.0.0
+    repository: https://traefik.github.io/charts
