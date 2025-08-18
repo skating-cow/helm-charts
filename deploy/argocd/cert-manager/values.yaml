@@ -1,4 +1,5 @@
-namespace: "cert-manager"
-installCRDs: true
-crds:
-  enabled: true
+cert-manager:
+  namespace: "cert-manager"
+  installCRDs: true
+  crds:
+    enabled: true
